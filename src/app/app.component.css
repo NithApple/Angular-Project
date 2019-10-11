@@ -1,0 +1,12 @@
+.show-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.show-images > .image {
+    border: solid 1px #000;
+    margin: 5px;
+}
+.show-images > .image > img{
+    max-width: 100px;
+    margin: 10px;
+}
